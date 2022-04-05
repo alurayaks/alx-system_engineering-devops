@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "$word" /etc/ssh/sshd_config
+grep 'ˆ[[:alpha:]]' /etc/ssh/sshd_config
